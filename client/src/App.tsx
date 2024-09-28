@@ -1,11 +1,11 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <div className="bg-black h-screen">
-        <NavBar />
+      <div>
+        <HomePage />
       </div>
     </>
   );
