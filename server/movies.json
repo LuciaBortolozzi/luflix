@@ -1,0 +1,326 @@
+[
+  {
+    "id": "1",
+    "title": "The Office (US)",
+    "description": "Documentary on people in an office",
+    "thumbnailUrl": "https://flxt.tmsimg.com/assets/p185008_b_h10_ai.jpg",
+    "videoUrl": "https://www.youtube.com/embed/ives5m1cgw?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "2",
+    "title": "South Park",
+    "description": "Four boys try to make it through school",
+    "thumbnailUrl": "https://variety.com/wp-content/uploads/2019/10/south-park.jpg?w=1000&h=563&crop=1",
+    "videoUrl": "https://www.youtube.com/embed/MW-bASP8mAg?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "3",
+    "title": "Brooklyn Nine-Nine",
+    "description": "A hilarious police precinct in Brooklyn, led by the quirky Detective Jake Peralta.",
+    "thumbnailUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUjszGh751A2Qv0FAIdj7Ew4HW4AR50ktpTLbOeSnZT4ozEMw6ChEgySTFKKOLIzjT35Zj8aSnNLD31CzX21uP9B-E95gqD9-avzZksoK3T4UVafrjXSFnScwWydEvAQydqAwbjAXlMdHN/s1600/brooklyn-nine-nine-poster.jpg",
+    "videoUrl": "https://www.youtube.com/embed/sEOuJ4z5aTc?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "4",
+    "title": "Silicon Valley",
+    "description": "A group of software engineers try to build a startup company in Silicon Valley.",
+    "thumbnailUrl": "https://www.whats-on-netflix.com/wp-content/uploads/2015/09/silicon-valley-netflix-1024x576.jpg",
+    "videoUrl": "https://www.youtube.com/embed/69V__a49xtw?autoplay=1",
+    "duration": "30 minutes per episode",
+    "genre": "Comedy"
+  },
+  {
+    "id": "5",
+    "title": "Breaking Bad",
+    "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
+    "thumbnailUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABb6h5K7kF5r1_x9RDFQ6lKLPfcAqtIIRDLoLbAj3Cl6_rPPA61zj31Wlq8KGanlfEX_CdBZl_XSh64f3VIDcX7YSI00-RGp4ifur.jpg?r=9ff",
+    "videoUrl": "https://www.youtube.com/embed/Svb3PBWmhaQ?autoplay=1",
+    "duration": "14 hours",
+    "genre": "Drama"
+  },
+  {
+    "id": "6",
+    "title": "Better Call Saul",
+    "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to and into his fateful run-in with Walter White and Jesse Pinkman.",
+    "thumbnailUrl": "https://news.newonnetflix.info/wp-content/uploads/2018/06/better-call-saul.jpg",
+    "videoUrl": "https://www.youtube.com/embed/gSANa2J_Jhw?autoplay=1",
+    "duration": "12 hours",
+    "genre": "Drama"
+  },
+  {
+    "id": "7",
+    "title": "Black Mirror",
+    "description": "A bunch of weird episodes",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQEVf3_IyL6fuX93NAWvkxz6l-gkpmnEFbA&s",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Drama"
+  },
+  {
+    "id": "7",
+    "title": "Stranger Things",
+    "description": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdb0VGE6o-UdwBZoOZ4BwllSxg_El1JCrjng&s",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+    "duration": "50 hours",
+    "genre": "Horror"
+  },
+  {
+    "id": "9",
+    "title": "Friends",
+    "description": "Six friends living in New York navigate life, love, and laughter.",
+    "thumbnailUrl": "https://i.pinimg.com/564x/0e/e9/69/0ee969e8611444aed8b5954e50d1f1fe.jpg",
+    "videoUrl": "https://www.youtube.com/embed/hDNNmeeJs1Q?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "10",
+    "title": "How I Met Your Mother",
+    "description": "Ted recounts to his children the series of events that led to him meeting their mother.",
+    "thumbnailUrl": "https://wildcatpause.com/wp-content/uploads/2022/03/HOWIMETYOURMOTHER-01-01-00WHORIZONTAL-1.jpg",
+    "videoUrl": "https://www.youtube.com/embed/yYYx8eNZJ7U?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "11",
+    "title": "Community",
+    "description": "A group of misfit students form a quirky community at a community college.",
+    "thumbnailUrl": "https://www.lavanguardia.com/andro4all/hero/2021/01/Community.jpg?width=1200&aspect_ratio=16:9",
+    "videoUrl": "https://www.youtube.com/embed/xLfjclhZyG0?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "12",
+    "title": "It's Always Sunny in Philadelphia",
+    "description": "A group of friends who own a bar create chaos with their misanthropic behavior.",
+    "thumbnailUrl": "https://media.licdn.com/dms/image/D5612AQHQavgUTOoWLQ/article-cover_image-shrink_720_1280/0/1701211639755?e=2147483647&v=beta&t=lKgkngD3jYdvwP7ccUYViNtxQfUt-sXjxzGxAUiS7sY",
+    "videoUrl": "https://www.youtube.com/embed/OFoLPkTuNZg?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "13",
+    "title": "30 Rock",
+    "description": "Behind-the-scenes comedy about a TV sketch show, led by Liz Lemon and her eccentric boss.",
+    "thumbnailUrl": "https://img1.hulu.com/user/v3/artwork/44e1031e-f7ac-443d-86d2-7a2eaa26ed5b?base_image_bucket_name=image_manager&base_image=91dfb764-6fba-4dcb-a730-8ebf4699de49&size=1200x630&format=webp&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7Cd0d0a919-e33f-451d-ba98-d6188cf8c5f8%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D",
+    "videoUrl": "https://www.youtube.com/embed/nv_kyL1OF0s?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "14",
+    "title": "Avatar: The Last Airbender",
+    "description": "A young boy, the last airbender, embarks on an epic journey to master all four elements and bring peace to the world.",
+    "thumbnailUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000043029/4ff8a1e4c87575f265e51de4b90de45040aa6e5350b30fab13894bf493f2ea68",
+    "videoUrl": "https://www.youtube.com/embed/d1EnW4kn1kg?autoplay=1",
+    "duration": "22 minutes",
+    "genre": "Animation"
+  },
+  {
+    "id": "15",
+    "title": "The Legend of Korra",
+    "description": "Set years after Avatar Aang's time, a new Avatar, Korra, fights to keep balance in the world as threats emerge.",
+    "thumbnailUrl": "https://www.platinumgames.com/wp-content/uploads/2016/03/kryvisual_LoK.jpg",
+    "videoUrl": "https://www.youtube.com/embed/vEl5ePUcE6c?autoplay=1",
+    "duration": "22 minutes",
+    "genre": "Animation"
+  },
+  {
+    "id": "16",
+    "title": "Adventure Time",
+    "description": "Follow Finn the Human and Jake the Dog on their surreal adventures in the post-apocalyptic Land of Ooo.",
+    "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/37/Adventure_Time_-_Title_card.png",
+    "videoUrl": "https://www.youtube.com/embed/9iNfVMbKM-w?autoplay=1",
+    "duration": "11 minutes",
+    "genre": "Animation"
+  },
+  {
+    "id": "17",
+    "title": "The Simpsons",
+    "description": "An animated series that follows the satirical adventures of a dysfunctional family living in Springfield.",
+    "thumbnailUrl": "https://www.whats-on-netflix.com/wp-content/uploads/2019/05/the-simpsons-on-netflix.jpg",
+    "videoUrl": "https://www.youtube.com/embed/Ykwj6txdA0Q?autoplay=1",
+    "duration": "22 minutes",
+    "genre": "Animation"
+  },
+  {
+    "id": "18",
+    "title": "The Nanny",
+    "description": "A charming and loud New Yorker unexpectedly becomes the nanny for a wealthy British family.",
+    "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:1200/1*50MMLtNvrxrM2GkXnOAmKg.png",
+    "videoUrl": "https://www.youtube.com/embed/5F4MplrqbY8?autoplay=1",
+    "duration": "22 minutes",
+    "genre": "Comedy"
+  },
+  {
+    "id": "19",
+    "title": "Unbreakable Kimmy Schmidt",
+    "description": "After being rescued from a doomsday cult, Kimmy Schmidt tries to start over in New York City.",
+    "thumbnailUrl": "https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfV2VeQWcqbD_rpfLJROwlKjb5z876uMecHXC0WQ4M5_2yy6Co37ouE2pJ3sj3UyWyO0NpRHAh_EGC6Gme2kY2EAOSDGkmaZnE03SC3sXFvg5UIp3b5Cv0OlUq1wTmNHfmcTHQ.jpg?r=33a",
+    "videoUrl": "https://www.youtube.com/embed/mNKEKlXY3Z4?autoplay=1",
+    "duration": "30 minutes",
+    "genre": "Comedy"
+  },
+  {
+    "id": "20",
+    "title": "Orange is the New Black",
+    "description": "A privileged New Yorker ends up in a women’s prison, where her life takes many unexpected turns.",
+    "thumbnailUrl": "https://ntvb.tmsimg.com/assets/p13812572_b_h10_aa.jpg?w=960&h=540",
+    "videoUrl": "https://www.youtube.com/embed/vY0qzXi5oJg?autoplay=1",
+    "duration": "1 hour",
+    "genre": "Drama"
+  },
+  {
+    "id": "21",
+    "title": "Mean Girls",
+    "description": "A new girl in high school navigates the treacherous world of cliques and learns the harsh realities of popularity.",
+    "thumbnailUrl": "https://occ-0-8407-37.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVK7Ew9XjpKvs_UEhqhh9bmxIKZzExsmvwoKzxmELErIUHQlMnGzsZ57ZAiUanaA3Zjh7hemxMPUokKp9H-dotZaK6Rn3fxNG6w.jpg?r=374",
+    "videoUrl": "https://www.youtube.com/embed/KAOmTMCtGkI?autoplay=1",
+    "duration": "1 hour 37 minutes",
+    "genre": "Comedy"
+  },
+  {
+    "id": "22",
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through dream-sharing technology is given the chance to erase his criminal past by planting an idea into a target's subconscious.",
+    "thumbnailUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYhN0WylacgTFIBAs_aITtT-gITNYV-u_CevHH4XiaSxiUfRiPiLoDUS81sgJ13CVx5CtNZXTx8-ibsBbt9SLm7E21H2C7h4H3Ag.jpg?r=9d5",
+    "videoUrl": "https://www.youtube.com/embed/YoHD9XEInc0?autoplay=1",
+    "duration": "2 hours 28 minutes",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": "23",
+    "title": "The Butterfly Effect",
+    "description": "A man discovers that he can time travel and tries to fix his past, but it has unintended consequences on his present and future.",
+    "thumbnailUrl": "https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdE5R0A7oZ8A4YFKoLY2DFleT9B7n7HjtxL_IkB1sB2anZhivsWh3C1M1nUE3uddZKFDiIlzSIDGIYrBn1f8kM63ccEvU1t_uJIu.jpg?r=f29",
+    "videoUrl": "https://www.youtube.com/embed/B8_dgqfPXFg?autoplay=1",
+    "duration": "1 hour 53 minutes",
+    "genre": "Thriller"
+  },
+  {
+    "id": "24",
+    "title": "Morning Glory",
+    "description": "An ambitious TV producer takes on the challenge of reviving a struggling morning show with a difficult anchor duo.",
+    "thumbnailUrl": "https://www.tvguide.com/a/img/resize/abf498aa2363a63a49fed1bc5678cd6104d1bc66/catalog/provider/1/2/1-6512357619.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "videoUrl": "https://www.youtube.com/embed/sfl3KJwXb3Q?autoplay=1",
+    "duration": "1 hour 42 minutes",
+    "genre": "Comedy"
+  },
+  {
+    "id": "25",
+    "title": "Avengers: Endgame",
+    "description": "After the devastating events of Infinity War, the Avengers assemble one last time to reverse the actions of Thanos and restore balance to the universe.",
+    "thumbnailUrl": "https://www.whats-on-netflix.com/wp-content/uploads/2019/04/Marvel-Avengers-Endgame.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c?autoplay=1",
+    "duration": "3 hours 1 minute",
+    "genre": "Action"
+  },
+  {
+    "id": "26",
+    "title": "Guardians of the Galaxy Vol. 1",
+    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.",
+    "thumbnailUrl": "https://www.whats-on-netflix.com/wp-content/uploads/2019/02/Guardians-of-the-Galaxy-Vol-2-Netflix-UK-1.jpg",
+    "videoUrl": "https://www.youtube.com/embed/d96cjJhvlMA?autoplay=1",
+    "duration": "2 hours 1 minute",
+    "genre": "Action"
+  },
+  {
+    "id": "27",
+    "title": "Deadpool",
+    "description": "A wisecracking mercenary with a penchant for breaking the fourth wall embarks on a quest for revenge after gaining incredible healing abilities.",
+    "thumbnailUrl": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/783F99F37062DCE97ABDE66BA2FE84F1885382908D4B25F48E25B57021ECC256/scale?width=1200&aspectRatio=1.78&format=webp",
+    "videoUrl": "https://www.youtube.com/embed/ONHBaC-pfsk?autoplay=1",
+    "duration": "1 hour 48 minutes",
+    "genre": "Action"
+  },
+  {
+    "id": "28",
+    "title": "Jumanji: Welcome to the Jungle",
+    "description": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+    "thumbnailUrl": "https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXMwbc17YKh_5LUl_U2KObr1BpZmkCv781W4RzI1IEos_Cm58XQonWWTBMua51oAZveI7Nw5QXx8ea3cXfCcXuS_6u3XR--i7wuR.jpg?r=9a4",
+    "videoUrl": "https://www.youtube.com/embed/2QKg5SZ_35I?autoplay=1",
+    "duration": "1 hour 59 minutes",
+    "genre": "Adventure"
+  },
+  {
+    "id": "29",
+    "title": "Parks and Recreation",
+    "description": "Leslie Knope tries to improve her small town with her eccentric coworkers.",
+    "thumbnailUrl": "https://www.nbcstore.com/cdn/shop/files/parks_rec-mobile-min.jpg?v=1689010945",
+    "videoUrl": "https://www.youtube.com/embed/5XrY86S5aCo?autoplay=1",
+    "duration": "2 hours",
+    "genre": "Comedy"
+  },
+  {
+    "id": "30",
+    "title": "Veep",
+    "description": "A satirical look at the life of a female vice president of the United States.",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzp9pmF9JwpW10-9Dp23JDgE2O-DBxn91TDw&s",
+    "videoUrl": "https://www.youtube.com/embed/IKJBbS-QOcw?autoplay=1",
+    "duration": "30 minutes per episode",
+    "genre": "Comedy"
+  },
+  {
+    "id": "31",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "description": "Harry Potter, an orphan, discovers he is a wizard and begins his studies at Hogwarts School of Witchcraft and Wizardry.",
+    "thumbnailUrl": "https://movingpicturereview.com/wp-content/uploads/2023/05/harry-potter-and-the-philosophers-stone-poster.jpeg",
+    "videoUrl": "https://www.youtube.com/embed/VyHV0BRtdxo?autoplay=1",
+    "duration": "2 hours 32 minutes",
+    "genre": "Fantasy"
+  },
+  {
+    "id": "32",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "description": "Harry returns to Hogwarts and discovers an ancient secret within the school's chambers.",
+    "thumbnailUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfW7sxvtDp2Gg_zJo4fMRRjvWfWVJUcMAEQPOsWokX31i1OqazseiunwwnV4PPQOC3T-Slf2Fps0UT0ajH_qYnYuV9XLy8iyycvj.jpg?r=22e",
+    "videoUrl": "https://www.youtube.com/embed/1bq0qff4iF8?autoplay=1",
+    "duration": "2 hours 41 minutes",
+    "genre": "Fantasy"
+  },
+  {
+    "id": "33",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "description": "Harry faces a new threat in the form of Sirius Black, a dangerous wizard who has escaped from Azkaban.",
+    "thumbnailUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfK6-Pmp0f0fTPQmds3pUCPxNmbot5FPSJnNvAu1kQdUAxMwoAaGCcOWUwLdE_cXdvdW62qTLkGI6aWR6sRhK3Nw0hu6LQVX4Ngv.jpg?r=943",
+    "videoUrl": "https://www.youtube.com/embed/lAxgztbYDbs?autoplay=1",
+    "duration": "2 hours 22 minutes",
+    "genre": "Fantasy"
+  },
+  {
+    "id": "34",
+    "title": "Harry Potter and the Goblet of Fire",
+    "description": "Harry competes in the dangerous Triwizard Tournament while Voldemort begins to regain his power.",
+    "thumbnailUrl": "https://occ-0-2219-1361.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABUKwFYkW6B1wcFzO-8Swg1Rtb8ukJtJY5N5KV6JoLgjt26wLUFr52gKi_aXVr7Bi3xBtkXKvAVNuFIK4f3gZGV7YWm6FukBjM4tPuueHc8_Ko7202HraaBcYERAdPxmp-fCp-W4joUA.jpg",
+    "videoUrl": "https://www.youtube.com/embed/3EGojp4Hh6I?autoplay=1",
+    "duration": "2 hours 37 minutes",
+    "genre": "Fantasy"
+  },
+  {
+    "id": "35",
+    "title": "Harry Potter and the Order of the Phoenix",
+    "description": "Harry battles the Ministry of Magic and Voldemort's growing influence while forming a secret group to fight back.",
+    "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdm1sUqaBpMg2FQ2J5ifvMzqzkHiylL-nIQ&s",
+    "videoUrl": "https://www.youtube.com/embed/y6ZW7KXaXYk?autoplay=1",
+    "duration": "2 hours 18 minutes",
+    "genre": "Fantasy"
+  },
+  {
+    "id": "36",
+    "title": "Harry Potter and the Half-Blood Prince",
+    "description": "Harry uncovers more about Voldemort's past while Hogwarts comes under increasing danger.",
+    "thumbnailUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdX7AcriJKJ3RfizmCWGiHKLv-I8CxmHMQCQC-hHwASqFU1gTMV9hDaZ9b6wCguSkdlSu710vSJelesUWCnEBzQRn3q99x0StIDt.jpg?r=bbe",
+    "videoUrl": "https://www.youtube.com/embed/sg81Lts5kYY?autoplay=1",
+    "duration": "2 hours 33 minutes",
+    "genre": "Fantasy"
+  }
+]

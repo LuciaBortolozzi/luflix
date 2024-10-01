@@ -1,20 +1,13 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { PlayIcon } from "@heroicons/react/24/solid";
+import { Movie } from "../types";
 
-type MovieCardProps = {
-  title: string;
-  imageSrc: string;
-  description?: string;
-  duration?: string;
-  category?: string;
-};
-
-
-export default function MovieCard({ imageSrc, title, description, duration, category }: MovieCardProps) {
+const MovieCard = ({ movie }: { movie: Movie }) => {
+  const { thumbnailUrl, description, duration, title, genre } = movie;
   return (
-    <div className="group bg-zinc-900 col-span relative h-[12vw]">
+    <div className="group bg-zinc-900 col-span relative h-[12vw] w-[24%]">
       <img
-        src={imageSrc}
+        src={thumbnailUrl}
         alt="Movie"
         draggable={false}
         className="
@@ -51,7 +44,7 @@ export default function MovieCard({ imageSrc, title, description, duration, cate
       "
       >
         <img
-          src={imageSrc}
+          src={thumbnailUrl}
           alt="Movie"
           draggable={false}
           className="
@@ -92,10 +85,12 @@ export default function MovieCard({ imageSrc, title, description, duration, cate
             <p className="text-white text-[10px] lg:text-sm">{duration}</p>
           </div>
           <div className="flex flex-row items-center gap-2 mt-4 text-[8px] text-white lg:text-sm">
-            <p>{category}</p>
+            <p>{genre}</p>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default MovieCard;
