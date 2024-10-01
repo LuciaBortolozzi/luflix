@@ -18,7 +18,7 @@ export default function WatchPage() {
           onClick={() => navigate("/browse")}
         />
         <p className="text-white text-3xl font-bold">
-          <span className="font-light">Watching:</span>
+          <span className="font-light">Watching: </span>
           {title}
         </p>
       </nav>
