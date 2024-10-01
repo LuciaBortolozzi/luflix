@@ -5,12 +5,18 @@ const app = express();
 
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   return res.send("HELLO WORLD");
 });
 
-app.get("/movies/list", (req, res) => {
+app.get("/movies/list", (_req, res) => {
   return res.send(movies);
+});
+
+app.get("/movie/:id", (req, res) => {
+  const id = req.params.id;
+  const movie = movies.find((m) => m.id === id);
+  return res.send(movie);
 });
 
 app.listen(8080, () => {
