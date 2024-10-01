@@ -14,7 +14,9 @@ app.get("/movies/list", (req, res) => {
   const from = offset;
   const to = from + 12;
   const moviesSubset = [...movies].slice(from, to);
-  return res.send(moviesSubset);
+  setTimeout(() => {
+    return res.json({ movies: moviesSubset, count: movies.length });
+  }, 3000);
 });
 
 app.get("/movie/:id", (req, res) => {

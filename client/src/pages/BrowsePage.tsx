@@ -1,4 +1,5 @@
 import Billboard from "../components/Billboard";
+import LoadingCards from "../components/LoadingCards";
 import MovieList from "../components/MovieList";
 import NavBar from "../components/NavBar";
 import useMoviesList from "../hooks/useMoviesList";
@@ -32,6 +33,7 @@ export default function BrowsePage() {
         {loading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         {data && <MovieList movies={data} lastElementRef={lastElementRef} />}
+        {loading ? <LoadingCards /> : null}
       </div>
     </div>
   );
