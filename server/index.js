@@ -9,8 +9,12 @@ app.get("/", (_req, res) => {
   return res.send("HELLO WORLD");
 });
 
-app.get("/movies/list", (_req, res) => {
-  return res.send(movies);
+app.get("/movies/list", (req, res) => {
+  const offset = parseInt(req.query.offset);
+  const from = offset;
+  const to = from + 12;
+  const moviesSubset = [...movies].slice(from, to);
+  return res.send(moviesSubset);
 });
 
 app.get("/movie/:id", (req, res) => {

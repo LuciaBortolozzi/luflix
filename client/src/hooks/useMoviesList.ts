@@ -24,13 +24,13 @@ type Action =
   | { type: ActionType.SUCCESS; payload: Movie[] }
   | { type: ActionType.FAILED; payload: string };
 
-const reducer = (_: State, action: Action): State => {
+const reducer = (state: State, action: Action): State => {
   switch (action.type) {
     case ActionType.LOADING:
       return {
+        ...state,
         loading: true,
         error: null,
-        data: null,
       };
     case ActionType.FAILED:
       return {
@@ -49,19 +49,22 @@ const reducer = (_: State, action: Action): State => {
   }
 };
 
-const useMoviesList = () => {
+const useMoviesList = (offset: number) => {
   const [{ data, loading, error }, dispatch] = useReducer(
     reducer,
     initialState
   );
   useEffect(() => {
     fetchMoviesList();
-  }, []);
+  }, [offset]);
   const fetchMoviesList = async () => {
     dispatch({ type: ActionType.LOADING });
     try {
-      const response = await axios.get("http://localhost:8080/movies/list");
-      dispatch({ type: ActionType.SUCCESS, payload: response.data });
+      const response = await axios.get(
+        `http://localhost:8080/movies/list?offset=${offset}`
+      );
+      const moviesData = data ? [...data, ...response.data] : response.data;
+      dispatch({ type: ActionType.SUCCESS, payload: moviesData });
     } catch (error) {
       dispatch({ type: ActionType.FAILED, payload: "Something went wrong" });
     }
