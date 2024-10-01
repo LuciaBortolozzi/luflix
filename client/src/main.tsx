@@ -1,12 +1,17 @@
-import App from './App.tsx'
-import './index.css'
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
-import BrowsePage from './pages/BrowsePage.tsx';
-import HomePage from './pages/HomePage.tsx';
-import LoginPage from './pages/LoginPage.tsx';
-import PlansPage from './pages/PlansPage.tsx';
-import WatchPage from './pages/WatchPage.tsx';
+import App from "./App.tsx";
+import "./index.css";
+import ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import BrowsePage from "./pages/BrowsePage.tsx";
+import HomePage from "./pages/HomePage.tsx";
+import LoginPage from "./pages/LoginPage.tsx";
+import PlansPage from "./pages/PlansPage.tsx";
+import WatchPage from "./pages/WatchPage.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

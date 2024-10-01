@@ -1,6 +1,5 @@
 import PlanCard from "../components/PlanCard";
 
-
 export default function PlansPage() {
   return (
     <div className="flex items-center h-screen justify-center">
