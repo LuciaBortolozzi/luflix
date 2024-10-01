@@ -1,4 +1,5 @@
-import logo from '../assets/587e304392136ddc5e78b13afa9d2807.png';
+import { useEffect, useState } from "react";
+import logo from "../assets/587e304392136ddc5e78b13afa9d2807.png";
 
 const tabs = [
   "Home",
@@ -10,14 +11,26 @@ const tabs = [
 ];
 
 export default function NavBar() {
+  const [showBackground, setShowBackground] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 700) {
+        setShowBackground(true);
+      } else {
+        setShowBackground(false);
+      }
+    });
+  }, []);
+
   return (
     <nav className="w-full fixed z-40">
-      <div className="px-16 py-6 flex items-center">
-        <img
-          className="h-16"
-          src={logo}
-          alt="LUFLIX logo"
-        />
+      <div
+        className={`px-16 py-6 flex items-center ${
+          showBackground ? "bg-black bg-opacity-90" : null
+        }`}
+      >
+        <img className="h-16" src={logo} alt="LUFLIX logo" />
         <div className="flex gap-7 ml-8">
           {tabs.map((tab) => (
             <div
