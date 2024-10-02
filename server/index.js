@@ -1,9 +1,8 @@
 const express = require("express");
-const movies = require("./movies.json");
 const cors = require("cors");
 const app = express();
-const { prisma } = require("./db");
 
+app.use(express.json());
 app.use(cors());
 
 app.get("/", (_req, res) => {

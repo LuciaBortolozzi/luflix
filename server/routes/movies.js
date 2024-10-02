@@ -25,4 +25,5 @@ router.get("/movie/:id", async (req, res) => {
   });
   return res.send(movie);
 });
+
 module.exports = router;
