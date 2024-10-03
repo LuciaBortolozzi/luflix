@@ -1,3 +1,5 @@
+import { useSelector } from "react-redux";
+import { RootState } from "../app/store";
 import Billboard from "../components/Billboard";
 import LoadingCards from "../components/LoadingCards";
 import MovieList from "../components/MovieList";
@@ -10,6 +12,11 @@ export default function BrowsePage() {
   const { data, loading, error } = useMoviesList(offset);
 
   const observer = useRef<null | IntersectionObserver>(null);
+
+  const { user, isLoading } = useSelector(
+    (state: RootState) => state.user.value
+  );
+  console.log({ isLoading, user });
 
   const lastElementRef = useCallback(
     (node: HTMLDivElement) => {

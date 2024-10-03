@@ -7,11 +7,13 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import { Provider } from "react-redux";
 import BrowsePage from "./pages/BrowsePage.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import LoginPage from "./pages/LoginPage.tsx";
 import PlansPage from "./pages/PlansPage.tsx";
 import WatchPage from "./pages/WatchPage.tsx";
+import { store } from "./app/store.ts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,5 +28,7 @@ const router = createBrowserRouter(
 );
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <RouterProvider router={router} />
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
 );
