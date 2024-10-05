@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { stripe } = require("../utils/stripe");
+const checkAuth = require("../middleware");
 
 router.get("/products", async (req, res) => {
   const response = await stripe.products.list({
@@ -38,6 +39,10 @@ router.post("/session", async (req, res) => {
     customer_email: email,
   });
   return res.json(session);
+});
+
+router.get("/subscription", checkAuth, async (req, res) => {
+  res.json(req.user);
 });
 
 module.exports = router;
