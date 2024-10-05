@@ -34,15 +34,14 @@ export default function PlansPage() {
           Choose a plan that works for you
         </h1>
         <div className="flex mt-4">
-          {data &&
-            data.map((plan) => (
-              <PlanCard
-                plan={plan}
-                key={plan.id}
-                selectedSession={selectedSession}
-                setSelectedSession={setSelectedSession}
-              />
-            ))}
+          {data?.map((plan) => (
+            <PlanCard
+              plan={plan}
+              key={plan.id}
+              selectedSession={selectedSession}
+              setSelectedSession={setSelectedSession}
+            />
+          ))}
         </div>
         <button
           className="rounded bg-red-400 p-3 text-white px-10 mt-3 w-full"

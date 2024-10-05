@@ -16,13 +16,13 @@ export default function PlanCard({
   plan,
   setSelectedSession,
   selectedSession,
-}: PlanProps) {
+}: Readonly<PlanProps>) {
   const { name, price, canViewHD, canDownload } = plan;
 
   return (
-    <div
+    <button
       className={`border rounded p-3 h-[350px] w-full pointer mr-3 cursor-pointer ${
-        selectedSession === plan.price.id ? "border-3 border-black" : null
+        selectedSession === plan.price.id ? "border-3 border-black" : ""
       }`}
       onClick={() => setSelectedSession(plan.price.id)}
     >
@@ -74,6 +74,6 @@ export default function PlanCard({
           <h3 className="font-semibold">Included</h3>
         </div>
       </div>
-    </div>
+    </button>
   );
 }

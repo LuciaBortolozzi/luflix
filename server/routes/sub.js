@@ -2,7 +2,7 @@ const router = require("express").Router();
 const { stripe } = require("../utils/stripe");
 const checkAuth = require("../middleware");
 
-router.get("/products", async (req, res) => {
+router.get("/products", async (_req, res) => {
   const response = await stripe.products.list({
     expand: ["data.default_price"],
   });
@@ -12,7 +12,7 @@ router.get("/products", async (req, res) => {
       id,
       name,
       canViewHD: true,
-      canDownload: name === "Premium Plan" ? true : false,
+      canDownload: name === "Premium Plan",
       price: {
         amount: default_price.unit_amount,
         id: default_price.id,
