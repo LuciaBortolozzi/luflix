@@ -1,5 +1,5 @@
-# Luflix
 ![Luflix home screenshot](./client/src/assets/luflix.png)
+
 Welcome to **Luflix**, an application designed to emulate Netflix but tailored to showcase _my_ favorite shows and movies. This project is a personal collection of entertainment that I love, providing a customized streaming experience.
 
 ## Features
@@ -68,14 +68,6 @@ Please note that this application is **not** intended to work exactly like a str
    npm run dev
    ```
 
-## Contributing
-
-Feel free to contribute by submitting issues or pull requests. I'd love to hear your feedback and suggestions!
-
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to modify any sections or add additional information as needed!
