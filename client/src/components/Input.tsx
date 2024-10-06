@@ -9,7 +9,7 @@ interface InputProps {
   validate?: () => string | true;
 }
 
-export default function Input({ id, label, type, name, validate }: InputProps) {
+export default function Input({ id, label, type, name, validate }: Readonly<InputProps>) {
   const { register, errors } = useContext(AuthFormContext);
 
   if (!register) return null;

@@ -24,6 +24,7 @@ export default function WatchPage() {
       </nav>
       <iframe
         className="h-full w-full"
+        title="Top moments of films & series"
         src={videoUrl}
         allowFullScreen
         allow="autoplay; encrypted-media"

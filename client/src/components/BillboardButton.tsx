@@ -5,7 +5,7 @@ interface BillboardButtonProps {
   text: string;
   theme: "light" | "dark";
 }
-export default function BillboardButton({ text, theme }: BillboardButtonProps) {
+export default function BillboardButton({ text, theme }: Readonly<BillboardButtonProps>) {
   const navigate = useNavigate();
 
   return (
@@ -16,7 +16,7 @@ export default function BillboardButton({ text, theme }: BillboardButtonProps) {
       onClick={() => navigate("/browse/watch/4")}
     >
       <PlayIcon
-        className={`w-7 ${theme === "light" ? null : "text-white"} mr-1`}
+        className={`w-7 ${theme === "light" ? "text-black" : "text-white"} mr-1`}
       />
       <p className={`${theme === "light" ? "text-black" : "text-white"}`}>
         {text}

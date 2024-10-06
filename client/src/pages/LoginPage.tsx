@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Input from "../components/Input";
-import { createContext, useState } from "react";
+import { createContext, useState, useMemo } from "react";
 import {
   useForm,
   SubmitHandler,
@@ -18,7 +18,7 @@ export type Inputs = {
 
 enum Variant {
   SIGN_UP,
-  LOGIN_IN,
+  LOGIN,
 }
 
 interface AuthFormContextType {
@@ -35,13 +35,13 @@ export default function LoginPage() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
     getValues,
   } = useForm<Inputs>();
-  const [variant, setVariant] = useState(Variant.LOGIN_IN);
+  const [variant, setVariant] = useState(Variant.LOGIN);
   const [authError, setAuthError] = useState("");
   const { signup, login } = useAuth();
   const navigate = useNavigate();
+
   const onSubmit: SubmitHandler<Inputs> = async ({ password, email, name }) => {
     try {
       if (variant === Variant.SIGN_UP) {
@@ -64,10 +64,20 @@ export default function LoginPage() {
   };
 
   const handleChangeAuthVariant = () => {
-    if (variant === Variant.LOGIN_IN) setVariant(Variant.SIGN_UP);
-    else setVariant(Variant.LOGIN_IN);
+    setVariant(
+      variant === Variant.LOGIN ? Variant.SIGN_UP : Variant.LOGIN
+    );
     setAuthError("");
   };
+
+  // Memoize context value to prevent re-renders
+  const contextValue = useMemo(
+    () => ({
+      register,
+      errors,
+    }),
+    [register, errors]
+  );
 
   return (
     <div className="relative bg-black h-screen w-screen bg-opacity-50">
@@ -77,12 +87,7 @@ export default function LoginPage() {
           <h2 className="text-white text-4xl mb-8 font-semibold">
             {variant === Variant.SIGN_UP ? "Sign up" : "Log in"}
           </h2>
-          <AuthFormContext.Provider
-            value={{
-              register,
-              errors,
-            }}
-          >
+          <AuthFormContext.Provider value={contextValue}>
             <form
               className="flex flex-col gap-4"
               onSubmit={handleSubmit(onSubmit)}
@@ -129,25 +134,22 @@ export default function LoginPage() {
               {authError && <p className="text-red-500">{authError}</p>}
             </form>
           </AuthFormContext.Provider>
-          {variant === Variant.LOGIN_IN ? (
-            <p
-              className="text-neutral-500 mt-12"
-              onClick={handleChangeAuthVariant}
-            >
-              <span className="text-white ml-1 hover:underline cursor-pointer">
-                First time using Netflix?
-              </span>
-            </p>
-          ) : (
-            <p
-              className="text-neutral-500 mt-12"
-              onClick={handleChangeAuthVariant}
-            >
-              <span className="text-white ml-1 hover:underline cursor-pointer">
-                Already have an account?
-              </span>
-            </p>
-          )}
+          <button
+            type="button"
+            className="text-neutral-500 mt-12"
+            onClick={handleChangeAuthVariant}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                handleChangeAuthVariant();
+              }
+            }}
+          >
+            <span className="text-white ml-1 hover:underline cursor-pointer">
+              {variant === Variant.LOGIN
+                ? "First time using Netflix?"
+                : "Already have an account?"}
+            </span>
+          </button>
         </div>
       </div>
     </div>
