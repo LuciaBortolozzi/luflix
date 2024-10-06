@@ -50,9 +50,12 @@ export default function NavBar() {
         </div>
         {user && !isLoading && (
           <div>
-            <div className="text-white hover:text-gray-300 cursor-pointer ml-auto">
-              <p onClick={logout}>Logout</p>
-            </div>
+            <button
+              className="text-white hover:text-gray-300 cursor-pointer ml-auto"
+              onClick={logout}
+            >
+              Logout
+            </button>
           </div>
         )}
       </div>

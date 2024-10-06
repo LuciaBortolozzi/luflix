@@ -28,7 +28,7 @@ export default function PlansPage() {
   };
 
   return (
-    <div className="flex items-center h-screen justify-center">
+    <div className="flex items-center h-screen justify-center text-center">
       <div className="w-[600px]">
         <h1 className="font-semibold text-3xl">
           Choose a plan that works for you

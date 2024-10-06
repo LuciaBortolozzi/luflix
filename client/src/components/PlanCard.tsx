@@ -26,16 +26,16 @@ export default function PlanCard({
       }`}
       onClick={() => setSelectedSession(plan.price.id)}
     >
-      <div className="rounded bg-gradient-to-r from-red-500 to-red-500 w-full p-3 text-white font-bold">
+      <div className="rounded bg-gradient-to-r from-red-500 to-red-500 w-full p-3 text-white font-bold text-center">
         <h3 className="text-2xl">{name}</h3>
         <p className="font-light">{formatter.format(price.amount / 100)}</p>
       </div>
 
-      <div className="border-b py-4 flex text-reg items-center">
-        <div className="w-6 h-6 rounded-full text-sm bg-red-500 flex items-center justify-center">
+      <div className="border-b py-4 flex items-center">
+        <div className="w-6 h-6 rounded-full text-sm bg-green-500 flex items-center justify-center">
           <CheckIcon color="white" width={15} fontWeight={900} />
         </div>
-        <div className="ml-3">
+        <div className="ml-3 flex-1 text-center">
           <h3 className="text-gray-600">Monthly price</h3>
           <h3 className="font-semibold">
             {formatter.format(price.amount / 100)}
@@ -43,9 +43,9 @@ export default function PlanCard({
         </div>
       </div>
 
-      <div className="border-b py-4 flex text-reg items-center">
+      <div className="border-b py-4 flex items-center">
         {canViewHD ? (
-          <div className="w-6 h-6 rounded-full text-sm bg-red-500 flex items-center justify-center">
+          <div className="w-6 h-6 rounded-full text-sm bg-green-500 flex items-center justify-center">
             <CheckIcon color="white" width={15} fontWeight={900} />
           </div>
         ) : (
@@ -53,15 +53,15 @@ export default function PlanCard({
             <XMarkIcon color="white" width={15} fontWeight={900} />
           </div>
         )}
-        <div className="ml-3">
+        <div className="ml-3 flex-1 text-center">
           <h3 className="text-gray-600">HD</h3>
           <h3 className="font-semibold">Included</h3>
         </div>
       </div>
 
-      <div className="border-b py-4 flex text-reg items-center">
+      <div className="border-b py-4 flex items-center">
         {canDownload ? (
-          <div className="w-6 h-6 rounded-full text-sm bg-red-500 flex items-center justify-center">
+          <div className="w-6 h-6 rounded-full text-sm bg-green-500 flex items-center justify-center">
             <CheckIcon color="white" width={15} fontWeight={900} />
           </div>
         ) : (
@@ -69,7 +69,7 @@ export default function PlanCard({
             <XMarkIcon color="white" width={15} fontWeight={900} />
           </div>
         )}
-        <div className="ml-3">
+        <div className="ml-3 flex-1 text-center">
           <h3 className="text-gray-600">Downloads</h3>
           <h3 className="font-semibold">Included</h3>
         </div>
