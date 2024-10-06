@@ -1,5 +1,5 @@
 # Luflix
-
+![Luflix home screenshot](./client/src/assets/luflix.png)
 Welcome to **Luflix**, an application designed to emulate Netflix but tailored to showcase _my_ favorite shows and movies. This project is a personal collection of entertainment that I love, providing a customized streaming experience.
 
 ## Features
