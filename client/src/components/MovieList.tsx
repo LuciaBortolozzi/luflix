@@ -4,10 +4,10 @@ import MovieCard from "./MovieCard";
 export default function MovieList({
   movies,
   lastElementRef,
-}: {
+}: Readonly<{
   movies: Movie[];
   lastElementRef: (node: HTMLDivElement) => void;
-}) {
+}>) {
   return (
     <div className="px-12 mt-4 space-y-8">
       <div>
